@@ -145,11 +145,18 @@ a:active{
 }
 .block-image{
     width: 500px;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
 }
 .block-image > img {
     width: 100%;
     height: auto;
     transition: all 500ms;
+    cursor: pointer;
+}
+.block-image > img:hover {
+    transform: scale(1.5);
 }
 
 footer{
