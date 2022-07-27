@@ -25,6 +25,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 header {
@@ -77,10 +78,10 @@ aside div {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 8px 22px;
+  margin: 8px 20px;
 }
 .contact a{
-  color: #a72b27;
+  color: #2760a7;
 }
 aside h3 {
   font-size: 1.8vw;
@@ -97,7 +98,7 @@ article {
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
   font-family: "Balsamiq Sans", cursive;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 article h2 {
   margin: 1vw;
@@ -107,7 +108,7 @@ article p {
 }
 #quote {
   color: #fffafa;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   margin: 1vw;
   padding: 1vw;
   border-radius: 5px;
@@ -154,6 +155,9 @@ a:active {
 }
 .block {
   display: flex;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 13px 0px rgba(34, 60, 80, 0.2);
 }
 .block-info {
   width: 400px;
@@ -172,7 +176,7 @@ a:active {
   cursor: pointer;
 }
 .block-image > img:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 footer {
